@@ -1,0 +1,16 @@
+
+    .hidden {
+        display: none;
+    }
+
+    .table-container {
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+    }
+
+    table{
+        width:60%;
+    }
+
+
