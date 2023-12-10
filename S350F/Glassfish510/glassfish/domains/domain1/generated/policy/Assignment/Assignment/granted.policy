@@ -1,0 +1,24 @@
+/* AUTOMATICALLY GENERATED ON Thu Nov 09 19:30:09 CST 2023*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebResourcePermission "/";
+  permission javax.security.jacc.WebUserDataPermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "LoginController", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "HandleVenue", "**";
+  permission javax.security.jacc.WebRoleRefPermission "noticeController", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+  permission javax.security.jacc.WebRoleRefPermission "BookingController", "**";
+  permission javax.security.jacc.WebRoleRefPermission "CkeckInOutController", "**";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "uploadVenueImageController", "**";
+  permission javax.security.jacc.WebRoleRefPermission "UploadImageController", "**";
+  permission javax.security.jacc.WebRoleRefPermission "BookingReviewController", "**";
+  permission javax.security.jacc.WebRoleRefPermission "FacesServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "BookingShowController", "**";
+};
+

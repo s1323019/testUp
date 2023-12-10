@@ -1,0 +1,22 @@
+/* AUTOMATICALLY GENERATED ON Wed Jan 05 17:51:09 CST 2022*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebUserDataPermission "/";
+  permission javax.security.jacc.WebResourcePermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "Checkbox", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Sum", "**";
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "StudentInfoServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "Radio", "**";
+  permission javax.security.jacc.WebRoleRefPermission "TextServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "FacesServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+  permission javax.security.jacc.WebRoleRefPermission "TemperatureServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "NewServlet", "**";
+};
+
